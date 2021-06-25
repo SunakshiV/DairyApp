@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_8sdp"
+                android:text="Services"/>
+
+
+            <TextView
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_8sdp"
+                android:text="© 2016-2021 Dairy Management. All rights reserved. "/>
+
+
+            <TextView
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_8sdp"
+                android:text="Dairy and the Dairy management logo are either registered trademarks or trademarks of Dairy in the United States and/or other countries. "/>
+
+            <TextView
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_8sdp"
+                android:text="Third Party notices, terms and conditions pertaining to third party software can be found at http://www.adobe.com/go/thirdparty_eula/ and are incorporated by reference. "/>
+
+            <TextView
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_8sdp"
+                android:text="Fonts will be sent to your device(s) when you preview on mobile. Please be aware that certain font vendors do not allow for the transfer, display and distribution of their fonts. You are responsible for ensuring that you respect the font license agreement between you and the applicable font vendor."/>
+
+        </LinearLayout>
+    </ScrollView>
+</layout>
