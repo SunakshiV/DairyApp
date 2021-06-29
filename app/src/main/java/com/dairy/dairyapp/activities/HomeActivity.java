@@ -162,8 +162,10 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 binding.myDrawerLayout.closeDrawer(GravityCompat.START);
-                switchFragment(new HomeFragment());
                 binding.imageTop.setVisibility(View.VISIBLE);
+                binding.textTop.setVisibility(View.GONE);
+                switchFragment(new HomeFragment());
+
             }
         });
         accountImagedown.setOnClickListener(new View.OnClickListener() {
@@ -586,11 +588,11 @@ public class HomeActivity extends AppCompatActivity {
 
 
                 editsnf.setOnClickListener(v1->{
-                    binding.myDrawerLayout.closeDrawer(GravityCompat.START);
+                   /* binding.myDrawerLayout.closeDrawer(GravityCompat.START);
                     switchFragment(new EditSnfFragment());
                     binding.imageTop.setVisibility(View.GONE);
                     binding.textTop.setVisibility(View.VISIBLE);
-                    binding.textTop.setText(R.string.edit_snf_formula);
+                    binding.textTop.setText(R.string.edit_snf_formula);*/
                 });
 
 

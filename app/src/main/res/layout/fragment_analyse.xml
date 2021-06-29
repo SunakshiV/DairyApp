@@ -1,14 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".fragment.setting.AnalyseFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_10sdp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-</FrameLayout>
+            <LinearLayout
+
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/cstm_rec_bg"
+                android:layout_width="@dimen/_200sdp"
+                android:orientation="horizontal"
+                android:layout_height="@dimen/_20sdp">
+
+
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:background="@drawable/cstm_rec_bg"
+                android:layout_width="@dimen/_65sdp"
+                android:orientation="horizontal"
+                android:layout_height="@dimen/_20sdp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Upload"
+                    android:gravity="center"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:fontFamily="@font/montserrat_medium"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:background="@color/colorLightGreen"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:text="SAVE"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp"/>
+    </LinearLayout>
+</layout>
